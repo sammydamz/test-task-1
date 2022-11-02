@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/test-task-1/static/css/main.d769627b.css",
-    "main.js": "/test-task-1/static/js/main.ebd6762e.js",
+    "main.css": "/test-task-1/static/css/main.fb4ba60f.css",
+    "main.js": "/test-task-1/static/js/main.5cda9355.js",
     "static/js/787.624ad79f.chunk.js": "/test-task-1/static/js/787.624ad79f.chunk.js",
+    "static/media/I4Glogo.svg": "/test-task-1/static/media/I4Glogo.d451debc914ea14ac2328c99bf9077ba.svg",
     "static/media/sammie.png": "/test-task-1/static/media/sammie.bcb33863ee4c16dc4f18.png",
+    "static/media/zurilogo.svg": "/test-task-1/static/media/zurilogo.75a623a11084f3b43c6bc970fd29a5d1.svg",
+    "static/media/slackIcon.svg": "/test-task-1/static/media/slackIcon.d37602baa87d8c1c3b5a207092d4e713.svg",
     "static/media/sharebtn.svg": "/test-task-1/static/media/sharebtn.8b4369de8ab30a8ae240d027dafeccf0.svg",
+    "static/media/twitter.svg": "/test-task-1/static/media/twitter.78f6d52da06efcc94696133397c86e7f.svg",
     "index.html": "/test-task-1/index.html",
-    "main.d769627b.css.map": "/test-task-1/static/css/main.d769627b.css.map",
-    "main.ebd6762e.js.map": "/test-task-1/static/js/main.ebd6762e.js.map",
+    "main.fb4ba60f.css.map": "/test-task-1/static/css/main.fb4ba60f.css.map",
+    "main.5cda9355.js.map": "/test-task-1/static/js/main.5cda9355.js.map",
     "787.624ad79f.chunk.js.map": "/test-task-1/static/js/787.624ad79f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d769627b.css",
-    "static/js/main.ebd6762e.js"
+    "static/css/main.fb4ba60f.css",
+    "static/js/main.5cda9355.js"
   ]
 }
