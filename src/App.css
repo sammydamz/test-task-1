@@ -53,7 +53,7 @@ flex-grow: 0;
   isolation: isolate;
   
   width: 1152px;
-  height: 142px;
+  height: 200px;
   
   
   /* Inside auto layout */
@@ -64,8 +64,8 @@ flex-grow: 0;
   flex-grow: 0;
 }
 
-#profName {
-  width: 1152px;
+#twitter {
+width: 1152px;
 height: 30px;
 
 /* Text xl/Bold */
@@ -91,7 +91,19 @@ order: 0;
 flex-grow: 1;
 }
 
-#proImage {
+#twi_img {
+  width: 1152px;
+  height: 30px;
+
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+
+}
+
+#profile__img {
   display: flex;
 flex-direction: column;
 justify-content: center;
@@ -110,6 +122,37 @@ order: 0;
 flex-grow: 0;
 z-index: 0;
 }
+
+#slack {
+visibility: hidden;
+width: 1152px;
+height: 30px;
+
+/* Text xl/Bold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+/* Gray/900 */
+
+color: #101828;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+
+
 
 #sharebtn {
   position: absolute;
@@ -172,7 +215,7 @@ padding: 24px 32px;
 gap: 8px;
 
 width: 1152px;
-height: 76px;
+height: 85px;
 
 /* Gray/200 */
 
@@ -190,7 +233,7 @@ flex-grow: 1;
 }
 
 .ltext {
-  width: 101px;
+max-width: 300px;
 height: 28px;
 
 /* Text lg/Medium */
@@ -211,34 +254,177 @@ text-align: center;
 color: #101828;
 
 
-/* Inside auto layout */
+}
+.ltexta {
+max-width: 500px;
+height: 0px;
+position: fixed;
 
-flex: none;
-order: 0;
-flex-grow: 0;
+/* Text lg/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+display: flex;
+
+
+/* Gray/900 */
+
+color: #101828;
+
+
+}
+.ltextwithsubtext {
+max-width: 300px;
+height: 60px;
+
+
+/* Text lg/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+display: flex;
+
+
+
+/* Gray/900 */
+
+color: #101828;
+
+
 }
 
-#spp1 {
+#btn_zuri {
   top: 0px;
 }
-#spp2 {
+#books {
   top: 100px;
 }
-#spp3 {
+#book_python {
   top: 200px;
 }
 #spp4 {
   top: 300px;
 }
-#spp5 {
+#pitch {
   top: 400px;
 }
-#spp6 {
+#book_design{
   top: 500px;
 }
+
 
 .lspace{
   display: flex;
   width: 1152px;
   height: 24px;
+}
+
+.linkbox1:hover {
+  background-color: #8ea6cc;
+  transition: 0.2s ease-in-out;
+}
+
+.ssContentWrapper {
+  width: 1216px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.socContainer {
+width: 1152px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.footerSection {
+width: 1440px;
+height: 160px;
+left: 0px;
+top: 998px;
+
+/* Base/White */
+
+background: #FFFFFF;
+}
+
+.footCont {
+box-sizing: border-box;
+
+width: 1350px;
+height: 64px;
+left: 32px;
+top: 0px;
+
+/* Gray/200 */
+
+border-top: 1px solid #EAECF0;
+}
+
+#i4glogo {
+  display: flex;
+  width: 1290px;
+  height: 32px;
+  left: 1083.87px;
+  top: 100px;
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+
+#zurifooter {
+  display: flex;
+  width: 1250px;
+  padding-top: 0;
+  left: 1083.87px;
+  top: 0px;
+  
+}
+
+#zuritext {
+display: flex;
+max-width: 700pxpx;
+/* Text md/Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+align-content: center;
+
+
+/* Gray/500 */
+
+color: #667085;
+}
+
+.footsep {
+  min-height: 150px;
+}
+
+.sepfoot2 {
+  width: 800px;
 }
